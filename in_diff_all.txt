@@ -1,0 +1,5 @@
+Hello, World!
+This is a test file with various characters and symbols 1 @
+12345
+~!@#$%^&*()_+
+New line to show it's different @ all points in 2025
