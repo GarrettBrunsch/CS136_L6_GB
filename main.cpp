@@ -497,11 +497,11 @@ bool ProcessCompareFiles(FileManager& fileManager, const string& fileName1, cons
 
     if (identical)
     {
-        cout << "Files are identical";
+        cout << "Files are identical\n";
     }
     else
     {
-        cout << "Files are different";
+        cout << "Files are different\n";
     }
 
     return identical;
@@ -540,6 +540,8 @@ void ClearInputError()
 
 /*
 
+
+
  == Main Menu ==
 1. Compare Files
 2. Display File Statistics
@@ -567,6 +569,7 @@ Choice: 1
 Comparing files in_base_case.txt and in_identical.txt
 Files are identical
 
+
  == Main Menu ==
 1. Compare Files
 2. Display File Statistics
@@ -587,42 +590,48 @@ in_identical.txt               6          56          31          93
 Choice: 3
 
 Comparing files in_base_case.txt and in_identical.txt
-Files are identicalFile Name                 Digits     Letters     Special       Total
+Files are identical
+File Name                 Digits     Letters     Special       Total
 --------------------------------------------------------------------
 in_base_case.txt               6          56          31          93
 in_identical.txt               6          56          31          93
 
 
 Comparing files in_base_case.txt and in_diff_digits.txt
-Files are differentFile Name                 Digits     Letters     Special       Total
+Files are different
+File Name                 Digits     Letters     Special       Total
 --------------------------------------------------------------------
 in_base_case.txt               6          56          31          93
 in_diff_digits.txt            10          56          32          98
 
 
 Comparing files in_base_case.txt and in_diff_letters.txt
-Files are differentFile Name                 Digits     Letters     Special       Total
+Files are different
+File Name                 Digits     Letters     Special       Total
 --------------------------------------------------------------------
 in_base_case.txt               6          56          31          93
 in_diff_letters.txt            6          86          36         128
 
 
 Comparing files in_base_case.txt and in_diff_special.txt
-Files are differentFile Name                 Digits     Letters     Special       Total
+Files are different
+File Name                 Digits     Letters     Special       Total
 --------------------------------------------------------------------
 in_base_case.txt               6          56          31          93
 in_diff_special.txt            6          56          37          99
 
 
 Comparing files in_base_case.txt and in_diff_all.txt
-Files are differentFile Name                 Digits     Letters     Special       Total
+Files are different
+File Name                 Digits     Letters     Special       Total
 --------------------------------------------------------------------
 in_base_case.txt               6          56          31          93
 in_diff_all.txt               10          92          44         146
 
 
 Comparing files in_base_case.txt and in_empty.txt
-Files are differentFile Name                 Digits     Letters     Special       Total
+Files are different
+File Name                 Digits     Letters     Special       Total
 --------------------------------------------------------------------
 in_base_case.txt               6          56          31          93
 in_empty.txt                   0           0           0           0
